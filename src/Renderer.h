@@ -7,7 +7,6 @@
 #include <string>
 #include <vector>
 
-
 class Renderer
 {
 public:
@@ -19,4 +18,6 @@ public:
 private:
     yocto::scene_data _scene;
     std::string _err;
+
+    void addCamera(float angleDegrees);
 };

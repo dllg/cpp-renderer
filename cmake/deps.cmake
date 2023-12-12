@@ -1,3 +1,5 @@
+set(OpenGL_GL_PREFERENCE GLVND)
+
 # Download yocto-gl from github
 include(FetchContent)
 FetchContent_Declare(
@@ -24,6 +26,7 @@ find_package(spdlog CONFIG REQUIRED)
 set(dependencies
     argh
     spdlog::spdlog
+    yocto
 )
 
 # Add include directories here
