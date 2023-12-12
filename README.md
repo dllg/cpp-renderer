@@ -18,3 +18,21 @@ $ mkdir build
 $ cmake .. -G Ninja
 $ ninja -j 10
 ```
+
+Install [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml)
+```
+$ sudo apt update
+$ sudo apt install xvfb
+```
+
+## Running
+
+Run Xvfb
+```
+$ . ./start_xvfb.sh
+```
+
+Run the renderer
+```
+$ ./build/bin/renderer test.gltf test.png
+```
