@@ -29,4 +29,5 @@ endif()
 set(defines
   NOMINMAX=1
   ASSERT=assert
+  YOCTO_OPENGL=1
 )

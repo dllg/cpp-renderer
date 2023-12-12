@@ -8,7 +8,7 @@ Install [vcpkg](https://vcpkg.io) and packages
 ```
 $ git clone https://git@github.com/microsoft/vcpkg
 $ cd vcpkg
-$ ./bootstrap-vcpg.sh
+$ ./bootstrap-vcpkg.sh
 $ ./vcpkg install argh spdlog
 ```
 
